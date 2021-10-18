@@ -6,6 +6,7 @@ const cashiersRoutes = require('./src/cashiers/routes.js');
 const global_jackpotsRoutes = require('./src/global_jackpots/routes.js');
 const local_jackpotsRoutes = require('./src/local_jackpots/routes.js');
 const transactionsRoutes = require('./src/transactions/routes.js');
+// const env = require('dotenv');
 const app = express();
 const port = 8000;
 // const port = 25061;

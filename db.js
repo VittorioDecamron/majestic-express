@@ -1,8 +1,9 @@
 const Pool = require('pg').Pool;
+// const env = require('dotenv');
 
 const pool = new Pool ({
     user: "postgres",
-    pasword: "TEXAS",
+    password: "TEXAS",
     database: "majestic_arcade_db",
     host: "localhost",
     port: 5432
